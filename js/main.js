@@ -133,7 +133,7 @@ let condTextData = document.createTextNode ('');
         Wthr.temperature = Math.round(response.data.main.temp); 
         cityData.innerText = Wthr.city;
         condData.innerText = Wthr.conditions;
-        tempData.innerText = Wthr.temperature + ' ' + 'F';
+        tempData.innerText = Wthr.temperature + '°' + 'F';
       })
 
   } 
